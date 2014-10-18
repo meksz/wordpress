@@ -2,6 +2,9 @@
 
 <b>Minimalistic configuration to run Wordpress 4.</b>
 
+<br>
+The following services were installed and conttrolled by supervisord.
+
 <ul>
 <li>Supervisord</li>
 <li>Sshd</li>
@@ -31,7 +34,11 @@ DB: <pre>wordpress</pre>
 Userid: <pre>wordpress</pre>
 password: <pre>wordpress</pre>
 
+<h3>Connect to container</h3>
+
+You can connect to container by nsenter for debugging purposes. Use the following script:
+<pre>scripts/dconnect.sh [container id]</pre>
+
 <i>
 Contact me for the issues: meks.bazz@gmail.com
 </i>
-
