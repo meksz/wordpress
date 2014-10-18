@@ -18,6 +18,9 @@ The following services were installed and conttrolled by supervisord.
 
 <h3>Working with container</h3>
 
+<b>Run container:</b> You can run this once then control with docker stop/start</b>
+<pre>./run-wordpress.sh</pre>
+
 <b>Stop container</b>
 <pre>docker stop wordpress</pre>
 
