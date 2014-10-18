@@ -12,8 +12,9 @@
 <h3>Create "shared" folder to attach it to following folders:</h3>
 
 <ul>
-<li>/var/lib/mysql</li>
-<li>/wordpress</li>
+<li><pre>/var/lib/mysql</pre></li>
+<li><pre>/wordpress</pre></li>
+</ul>
 
 <h3>Working with container</h3>
 
