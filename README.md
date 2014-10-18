@@ -2,7 +2,6 @@
 
 <b>Minimalistic configuration to run Wordpress 4.</b>
 
-<br>
 The following services were installed and conttrolled by supervisord.
 
 <ul>
@@ -25,7 +24,7 @@ The following services were installed and conttrolled by supervisord.
 <b>Resume container</b>
 <pre>docker start wordpress</pre>
 
-<b>You don't need 'docker run' everytime.</b>
+<i>You don't need 'docker run' everytime.</i>
 
 <h3>Mysql Config</h3>
 <b>Settings for wordpress db in Mysql (see scripts/start-up.sh)</b>
@@ -39,6 +38,4 @@ password: <pre>wordpress</pre>
 You can connect to container by nsenter for debugging purposes. Use the following script:
 <pre>scripts/dconnect.sh [container id]</pre>
 
-<i>
-Contact me for the issues: meks.bazz@gmail.com
-</i>
+<i>Contact me for the issues: meks.bazz@gmail.com</i>
