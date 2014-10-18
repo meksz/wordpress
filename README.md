@@ -1,4 +1,4 @@
-<h2>Description</h2>
+<h1>Description</h1>
 
 <b>Minimalistic configuration to run Wordpress 4.</b>
 
@@ -11,7 +11,7 @@ The following services were installed and conttrolled by supervisord.
 <li>Mysql</li>
 </ul>
 
-<h3>Create "shared" folder to attach it to following folders:</h3>
+<h3>Create "shared" folder to attach it to the following folders from the container:</h3>
 
 <pre>/var/lib/mysql</pre>
 <pre>/wordpress</pre>
