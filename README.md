@@ -1,30 +1,36 @@
 <h2>Description</h2>
-
+<br>
 <b>Minimalistic configuration to run Wordpress 4.</b>
 
+<ul>
+<li>Supervisord</li>
+<li>Sshd</li>
+<li>Apache2</li>
+<li>Mysql</li>
+</ul>
 
-Supervisord
-Sshd
-Apache2
-Mysql
+<h3>Create "shared" folder to attach it to following folders:</h3>
 
-Create "shared" folder to attach it to following folders:
+<ul>
+<li>/var/lib/mysql</li>
+<li>/wordpress</li>
 
-/var/lib/mysql
-/wordpress
+<h3>Working with container</h3>
 
-Stop container
-docker stop wordpress
+<b>Stop container</b>
+<font face="courier">docker stop wordpress</font>
 
-Resume container
-docker start wordpress
+<b>Resume container</b>
+<font face="courier">docker start wordpress</font>
 
-You don't need 'docker run' everytime.
+<font italic>You don't need 'docker run' everytime.</font>
 
-Passwords for wordpress db in Mysql (see scripts/start-up.sh)
-DB: wordpress
-Userid: wordpress
-password: wordpress
+<h3>Mysql Config</h3>
+<b>Settings for wordpress db in Mysql (see scripts/start-up.sh)</b>
+DB: <font face="courier">wordpress</font>
+Userid: <font face="courier">wordpress</font>
+password: <font face="courier">wordpress</font>
+
 
 Contact me for the issues: meks.bazz@gmail.com
 
