@@ -30,12 +30,11 @@ The following services were installed and conttrolled by supervisord.
 <b>Settings for wordpress db in Mysql (see scripts/start-up.sh)</b>
 
 DB: <pre>wordpress</pre>
-Userid: <pre>wordpress</pre>
-password: <pre>wordpress</pre>
+Userid/Password: <pre>wordpress / wordpress</pre>
 
-<h3>Connect to container</h3>
+<h3>Debugging: Attach TTY to running container</h3>
 
-You can connect to container by nsenter for debugging purposes. Use the following script:
+You can attach tty to container by nsenter for debugging purposes. Use the following script:
 <pre>scripts/dconnect.sh [container id]</pre>
 
 <i>Contact me for the issues: meks.bazz@gmail.com</i>
