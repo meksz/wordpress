@@ -1,6 +1,7 @@
-Description
+<h2>Description</h2>
 
-Minimalistic configuration to run Wordpress 4.
+<b>Minimalistic configuration to run Wordpress 4.</b>
+
 
 Supervisord
 Sshd
